@@ -1,0 +1,21 @@
+.input {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+.input h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.input button {
+  background: rgb(121, 202, 16);
+  width: 120px;
+  height: 35px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}

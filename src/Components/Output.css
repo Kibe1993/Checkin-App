@@ -1,0 +1,23 @@
+.output-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.output-container h3 {
+  align-self: center;
+  font-size: 22px;
+}
+.output-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 30px;
+}
+.output-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  list-style: none;
+  font-size: 18px;
+}

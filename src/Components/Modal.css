@@ -1,0 +1,47 @@
+.modal {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  width: 400px;
+}
+
+.dialog {
+  background: white;
+  border: 2px solid orange;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  background: lightcyan;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-label input {
+  height: 35px;
+  padding: 8px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background: transparent;
+}
+form button {
+  width: 120px;
+  align-self: center;
+  height: 35px;
+  background: rgb(55, 202, 10);
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}

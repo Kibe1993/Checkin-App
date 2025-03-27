@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(95deg, rgb(99, 52, 99), indigo, rgb(95, 21, 95));
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 700px;
+  background: rgb(160, 161, 160);
+
+  padding: 20px 15px;
+  min-height: 650px;
+  color: rgb(68, 48, 11);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
