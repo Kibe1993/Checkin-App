@@ -4,7 +4,7 @@ import { useState } from "react";
 import Output from "./Components/Output";
 
 const App = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [employees, setEmployees] = useState([]);
 
   function handleCloseModal() {
